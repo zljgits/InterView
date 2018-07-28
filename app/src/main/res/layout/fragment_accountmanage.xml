@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/infoshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="信息显示区"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+</LinearLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#2894ff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#2894ff"/>
+
+        <TextView
+            android:id="@+id/headnumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="车号"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#2894ff"/>
+
+        <TextView
+            android:id="@+id/headbiao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="车标"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#2894ff"/>
+
+        <TextView
+            android:id="@+id/headbalance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="余额"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#2894ff"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#2894ff"/>
+
+    <ListView
+        android:id="@+id/AccountListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" ></ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/topshow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="充值区"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#2894ff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="#2894ff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="车号："
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="#2894ff"/>
+
+        <Spinner
+            android:id="@+id/AccountSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="#2894ff"/>
+
+        <EditText
+            android:id="@+id/AccountInputMoney"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="#2894ff"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#2894ff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#2894ff"/>
+
+        <Button
+            android:id="@+id/AccountTopBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="充值"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/login_btnselect"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#2894ff"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#2894ff"/>
+</LinearLayout>

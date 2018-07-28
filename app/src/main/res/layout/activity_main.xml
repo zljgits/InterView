@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFE0"
+   >
+
+    <com.example.administrator.interview.Sliding.LateralSpreads
+
+        android:id="@+id/MySlidingPaneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/side_interface" />
+
+        <include layout="@layout/title_interface" />
+
+    </com.example.administrator.interview.Sliding.LateralSpreads>
+
+
+</RelativeLayout>
